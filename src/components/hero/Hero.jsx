@@ -1,5 +1,5 @@
 import React from "react";
-import personImg from "../../assets/person2.png";
+import personImg from "../../assets/Shuceyb.png";
 
 const Hero = () => {
   return (
@@ -35,7 +35,8 @@ const Hero = () => {
           <div>
             <img
               src={personImg}
-              className="w-full md:max-w-lg mx-auto backdrop-blur-sm"
+              className="w-full md:w-3/4 mx-auto backdrop-blur-sm mt-[-50px] relative z-10"
+
               alt="person"
             />
           </div>
